@@ -1,0 +1,32 @@
+{
+  "name": "project_ncbi",
+  "version": "1.0.0",
+  "description": "Making NCBI More Convenient",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon --exec babel-node src/server.js",
+    "prestart": "tsc src/server.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/devdonghyun/project_NCBI.git"
+  },
+  "author": "devdonghyun",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/devdonghyun/project_NCBI/issues"
+  },
+  "homepage": "https://github.com/devdonghyun/project_NCBI#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  },
+  "dependencies": {
+    "@babel/cli": "^7.12.10",
+    "@babel/core": "^7.12.10",
+    "@babel/node": "^7.12.10",
+    "@babel/preset-env": "^7.12.11",
+    "dotenv": "^8.2.0",
+    "graphql-yoga": "^1.18.3",
+    "typescript": "^4.1.3"
+  }
+}
