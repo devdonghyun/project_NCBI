@@ -4,8 +4,7 @@
   "description": "Making NCBI More Convenient",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "nodemon --exec babel-node src/server.js",
-    "prestart": "tsc src/server.ts"
+    "dev": "nodemon --exec babel-node src/server.js"
   },
   "repository": {
     "type": "git",
